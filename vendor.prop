@@ -139,6 +139,9 @@ debug.cpurend.vsync=false
 ro.hardware.egl=adreno
 ro.hardware.vulkan=sdm660
 
+# HEH filename encryption is being dropped
+ro.crypto.volume.filenames_mode=aes-256-cts
+
 # NTP Server
 persist.backup.ntpServer=0.pool.ntp.org
 
