@@ -35,6 +35,9 @@ BOARD_ANT_WIRELESS_DEVICE := "qualcomm-hidl"
 # Bootloader
 TARGET_NO_BOOTLOADER := true
 
+# Broken rules
+BUILD_BROKEN_DUP_RULES := true
+
 # Display
 TARGET_SCREEN_DENSITY := 420
 TARGET_USES_GRALLOC1 := true
